@@ -11,7 +11,8 @@ This creates a `.git` folder, turning your project into a Git repository.
 ## 2. Add Files to Git
 ```bash
 git add filename.filextension
-or (for multiple files)
+
+for multiple files 
 git add .
 ```
 This stages `filename.filextension` for the next commit.
@@ -34,13 +35,27 @@ This saves your changes with a message.
 
 Now, link your local repo to GitHub:
 ```bash
-git remote add origin https://github.com/your-username/php-example.git
+git remote add origin https://github.com/your-username/sample-repository.git
 ```
 
 ## 6. Push Your Code to GitHub
 ```bash
-git push -u origin main
+git checkout -b branchname
+git push -u origin branchname
 ```
+
+## 7. Add and Commit Changes
+```bash
+git add filename.filextension
+
+for multiple files 
+git add .
+
+then do
+git commit -m "Your Message"
+
+finally push it to your branch
+git push origin main
 
 ### Done! 🎉 Your project is now on GitHub.
 Happy coding! 🚀
