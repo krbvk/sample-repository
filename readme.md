@@ -56,6 +56,7 @@ git commit -m "Your Message"
 
 finally push it to your branch
 git push origin main
+```
 
 ### Done! 🎉 Your project is now on GitHub.
 Happy coding! 🚀
